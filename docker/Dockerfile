@@ -5,4 +5,4 @@ WORKDIR /app
 
 COPY hello.py /app
 
-CMD [ "python -u", "hello.py" ]
+CMD [ "python", "-u", "hello.py" ]

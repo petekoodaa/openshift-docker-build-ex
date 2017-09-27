@@ -1,8 +1,9 @@
 import time
+import sys
 
 def main():
     while True:
-        print "Hello OpenShift!"
+        sys.stdout.write("Hello OpenShift!\n")
         time.sleep(5)
 
 if __name__ == '__main__':
